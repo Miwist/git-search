@@ -1,0 +1,31 @@
+@import '../../Style/variables.scss';
+
+.Header {
+    background-color: $green;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    .Search {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: 20px;
+        input {
+            width: 912px;
+            background-color: $white;
+            border-radius: 4px;
+            padding: 5px;
+            height: 32px;
+        }
+
+        button {
+            width: 105px;
+            height: 42px;
+            margin-left: 5px;
+        }
+    }
+}

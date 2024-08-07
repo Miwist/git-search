@@ -1,0 +1,30 @@
+@import "./variables.scss";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: "Roboto";
+  background-color: #fff;
+  min-height: 100vh;
+  max-width: 1440px;
+  font-weight: 400;
+  color: #000;
+
+  h1 {
+    color: #000;
+  }
+
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: $gray;
+  }
+}
